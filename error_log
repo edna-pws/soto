@@ -1,0 +1,29 @@
+[20-Mar-2015 07:56:24 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/wwwphilw/public_html/2015/sotogrande/wp-includes/update.php on line 295
+[25-Mar-2015 09:49:27 UTC] PHP Notice:  Array to string conversion in /home/wwwphilw/public_html/2015/sotogrande/wp-content/themes/sotogrande/single-rooms.php on line 79
+[25-Mar-2015 09:49:27 UTC] PHP Notice:  Array to string conversion in /home/wwwphilw/public_html/2015/sotogrande/wp-content/themes/sotogrande/single-rooms.php on line 79
+[25-Mar-2015 09:49:27 UTC] PHP Notice:  Array to string conversion in /home/wwwphilw/public_html/2015/sotogrande/wp-content/themes/sotogrande/single-rooms.php on line 79
+[25-Mar-2015 09:49:27 UTC] PHP Notice:  Array to string conversion in /home/wwwphilw/public_html/2015/sotogrande/wp-content/themes/sotogrande/single-rooms.php on line 79
+[25-Mar-2015 09:49:27 UTC] PHP Notice:  Array to string conversion in /home/wwwphilw/public_html/2015/sotogrande/wp-content/themes/sotogrande/single-rooms.php on line 79
+[25-Mar-2015 09:49:27 UTC] PHP Notice:  Array to string conversion in /home/wwwphilw/public_html/2015/sotogrande/wp-content/themes/sotogrande/single-rooms.php on line 79
+[25-Mar-2015 09:49:27 UTC] PHP Notice:  Array to string conversion in /home/wwwphilw/public_html/2015/sotogrande/wp-content/themes/sotogrande/single-rooms.php on line 79
+[25-Mar-2015 09:50:41 UTC] PHP Fatal error:  Call to undefined function get_sub_fields() in /home/wwwphilw/public_html/2015/sotogrande/wp-content/themes/sotogrande/single-rooms.php on line 79
+[08-Apr-2015 03:22:58 UTC] PHP Warning:  mysqli_real_connect(): (08004/1040): Too many connections in /home/wwwphilw/public_html/2015/sotogrande/wp-includes/wp-db.php on line 1386
+[08-Apr-2015 03:22:58 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/wwwphilw/public_html/2015/sotogrande/wp-includes/wp-db.php on line 1416
+[08-Apr-2015 03:22:58 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/wwwphilw/public_html/2015/sotogrande/wp-includes/wp-db.php on line 1416
+[10-Apr-2015 05:32:09 UTC] PHP Notice:  Undefined offset: 0 in /home/wwwphilw/public_html/2015/sotogrande/wp-content/themes/sotogrande/archive-promos.php on line 28
+[14-Apr-2015 03:23:02 UTC] PHP Warning:  mysqli_real_connect(): (08004/1040): Too many connections in /home/wwwphilw/public_html/2015/sotogrande/wp-includes/wp-db.php on line 1386
+[14-Apr-2015 03:23:02 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/wwwphilw/public_html/2015/sotogrande/wp-includes/wp-db.php on line 1416
+[14-Apr-2015 03:23:02 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/wwwphilw/public_html/2015/sotogrande/wp-includes/wp-db.php on line 1416
+[14-Apr-2015 03:23:20 UTC] PHP Warning:  mysqli_real_connect(): (08004/1040): Too many connections in /home/wwwphilw/public_html/2015/sotogrande/wp-includes/wp-db.php on line 1386
+[14-Apr-2015 03:23:20 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/wwwphilw/public_html/2015/sotogrande/wp-includes/wp-db.php on line 1416
+[14-Apr-2015 03:23:20 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/wwwphilw/public_html/2015/sotogrande/wp-includes/wp-db.php on line 1416
+[14-Apr-2015 03:24:04 UTC] PHP Warning:  mysqli_real_connect(): (08004/1040): Too many connections in /home/wwwphilw/public_html/2015/sotogrande/wp-includes/wp-db.php on line 1386
+[14-Apr-2015 03:24:04 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/wwwphilw/public_html/2015/sotogrande/wp-includes/wp-db.php on line 1416
+[14-Apr-2015 03:24:04 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/wwwphilw/public_html/2015/sotogrande/wp-includes/wp-db.php on line 1416
+[14-Apr-2015 03:24:09 UTC] PHP Warning:  mysqli_real_connect(): (08004/1040): Too many connections in /home/wwwphilw/public_html/2015/sotogrande/wp-includes/wp-db.php on line 1386
+[14-Apr-2015 03:24:09 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/wwwphilw/public_html/2015/sotogrande/wp-includes/wp-db.php on line 1416
+[14-Apr-2015 03:24:09 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/wwwphilw/public_html/2015/sotogrande/wp-includes/wp-db.php on line 1416
+[14-Apr-2015 03:24:51 UTC] PHP Warning:  mysqli_real_connect(): (08004/1040): Too many connections in /home/wwwphilw/public_html/2015/sotogrande/wp-includes/wp-db.php on line 1386
+[14-Apr-2015 03:24:51 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/wwwphilw/public_html/2015/sotogrande/wp-includes/wp-db.php on line 1416
+[14-Apr-2015 03:24:51 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/wwwphilw/public_html/2015/sotogrande/wp-includes/wp-db.php on line 1416
+[14-Apr-2015 03:49:54 UTC] PHP Fatal error:  Call to undefined function var_dup() in /home/wwwphilw/public_html/2015/sotogrande/wp-content/themes/sotogrande/archive-rooms.php on line 15

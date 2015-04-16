@@ -1,0 +1,19 @@
+<nav class="nav-mobile">
+  <ul>
+    <li class="dropdown">
+      <a id="drop-rooms" href="#" class="dropdown-toggle hidden-xs" data-toggle="dropdown">rooms</a>
+        <ul class="dropdown-menu dropdown-menu-mega" role="menu">
+        <li class="dropdown dropdown-fw">
+        <li id="properties" class="dropdown-content container-fluid">
+      </ul>
+    </li><!-- rooms -->
+    <li><a href="<?php echo bloginfo('url'); ?>/meetings">meeting and banquet</a></li>
+    <li><a href="<?php echo bloginfo('url'); ?>/properties">properties</a></li>
+    <li><a href="<?php echo bloginfo('url'); ?>/promos">promos</a></li>
+    <li><a href="<?php echo bloginfo('url'); ?>/photos"><img src="<?php echo IMG; ?>camera.png" class="img-camera" alt="">Photos</a></li>
+    <li><a href="<?php echo bloginfo('url'); ?>/locations">Location</a></li>
+    <li><a href="#" class="subscribe">Subscribe</a></li>
+    <li><a href="<?php echo bloginfo('url'); ?>/contact">Contact</a></li>
+    <li class="disabled nav-phone">+63 32.238.6592</li>
+  </ul>
+</nav>

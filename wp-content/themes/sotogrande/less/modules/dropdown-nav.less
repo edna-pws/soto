@@ -1,0 +1,424 @@
+
+.dropdow-mega-menu {
+
+  // reset positions 
+  .nav, .collapse, .dropup, .dropdown {
+    position: static;
+  }  
+
+  // propagate menu position under container for fw navbars
+  .container {
+    position: relative;
+  }
+
+  // by default aligns menu to left
+  .dropdown-menu {
+    left: auto;
+  }
+  
+  // Content with padding 
+  .dropdown-content {
+    padding: 20px 30px;
+  }
+
+  // Fullwidth menu
+  .dropdown.dropdown-fw .dropdown-menu {
+    left: 0; right: 0;
+  }
+
+}
+@media (max-width: 768px) {
+  .dropdown-content {
+    width: 100%;
+    padding: 10px 48px;
+  }
+}
+.dropdown-menu-mega {
+  margin-top: -82px !important;
+  width: 100% !important;
+  left: 0px !important;
+  background-color: rgba(34, 34, 37, 0.9);
+  color: #fff;
+}
+
+.dropdown-content .list-inline > li a {
+  color: #fff;
+  font-size: 14px;
+  display: inline-block;
+  text-transform: initial;
+  padding-left: 39px;
+  font-weight: lighter !important;
+  text-decoration: none;
+  transition: all 0.5s;
+  &:hover {
+    color: @brand-tertiary;
+  }
+}
+
+.dropdown-content .list-inline > li:nth-child(4) a {
+  padding-left: 39px;
+}
+
+.dropdown-content {
+  img {
+    border: 2px solid #fff;
+  }
+
+  h4 {
+    margin-left: -6px !important;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .list-inline {
+    & > li {
+      min-width: 50px !important;
+    }
+
+    &.list-width > li{
+      min-width: 110px !important
+    }
+  }
+}
+
+
+.list-width {
+  width: 80%;
+  padding-left: 0;
+  list-style: none;
+  margin-left: -43px;
+}
+
+.dropdown {
+  &:hover {
+
+    & .dropdown-menu {
+      display: none;
+    }
+
+  }
+  &.open {
+
+    & .dropdown-menu {
+      display: block;
+    }
+
+    & > a {
+      background-color: #fff !important;
+      color: @brand-base !important;
+    }
+  }
+}
+   
+.nav.navbar-nav a:active {
+  color: @brand-base !important;
+}
+
+.dropdown-responsive-one {
+    margin-left: 19% !important;
+    width: 30%;
+}
+.dropdown-responsive-left {
+    width: 40%;
+}
+
+.dropdown-responsive-right {
+  width: 58%;
+}
+
+.dropdown-responsive-left-one {
+    width: 28%;
+}
+.dropdown-responsive-two {
+    width: 42%;
+}
+
+.dropdown-responsive-right-two {
+    width: 65%;
+}
+.dropdown-responsive-link {
+  color: #e3e3e3 !important;
+  font-size: 15px !important;
+}
+.dropdown-rooms {
+  color: #e3e3e3 !important;
+  font-size: 15px !important;
+}
+.dropdown-rooms-link {
+    margin-left: -45px !important;
+}
+@media (max-width: 1500px) {
+  .dropdown-responsive-one {
+    margin-left: 4% !important;
+    width: 37% !important;
+  }
+  .dropdown-responsive-two {
+    width: 59%;
+  }
+  .dropdown-responsive-left-one {
+    width: 24%;
+  }
+  .dropdown-responsive-right-two {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1366px) and (min-width: 1280px) {
+  .dropdown-responsive-one {
+    margin-left: 12% !important;
+    width: 42%;
+  }
+  .dropdown-responsive-left {
+    width: 38%;
+  }
+  .dropdown-responsive-right {
+    width: 39%;
+  }
+  .dropdown-responsive-two {
+    width: 43%;
+  }
+  .dropdown-responsive-left-one {
+    width: 37%;
+  }
+  .dropdown-responsive-right-two {
+    width: 46% !important;
+  }
+  .dropdown-content .list-inline > li:nth-child(4) a {
+    padding-left: 39px;
+  }
+}
+@media (max-width: 1024px) {
+   .dropdown-menu-mega {
+    background-color: #26282b !important;
+    height: 200px;
+    width: 100% !important;
+    position: relative;
+    margin-top: 9px !important;
+  }
+  .dropdown-responsive-one {
+    width: 35% !important;
+  }
+  .dropdown-responsive-left{
+    width: 53% !important;
+  }
+  .dropdown-responsive-right-two {
+        width: 68% !important;
+  }
+}
+@media (max-width: 1024px) {
+  .dropdown-content .list-inline > li:nth-child(4) a {
+  padding-left: 40px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .dropdown-responsive-right {
+    width: 36%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .dropdown-responsive-right-two {
+    width: 49%;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  
+  .dropdown-responsive-one {
+      margin-left: 36px !important;
+      width: 46%;
+  }
+  .dropdown-responsive-right {
+      width: 32%;
+  }
+  .dropdown-responsive-left {
+      width: 43%;
+  }
+  .dropdown-responsive-two {
+      width: 62% !important;
+  }
+  .dropdown-responsive-left-one {
+    width: 43%;
+  }
+  .dropdown-responsive-right-two {
+    width: 57% !important;
+  }
+  .list-width > li {
+    margin: 0 !important;
+  }
+  .dropdown-content .list-inline > li a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dropdown-menu-mega {
+    height: auto;
+    margin-top: 0 !important;
+  }
+  .dropdown-responsive-one {
+     width: 41% !important;
+    float: left;
+  }
+  .dropdown-responsive-left {
+      width: 54% !important;
+      padding: 0 0;
+      float: left;
+  }
+  .dropdown-responsive-right {
+    width: 45% !important;
+    float: left;
+  }
+  .dropdown-content .list-inline > li:nth-child(4) a {
+    padding-left: 38px !important;
+  }
+  .dropdown-responsive-two {
+    width: 59% !important;
+    float: left;
+  }
+  .dropdown-responsive-left-one {
+      width: 40% !important;
+      padding: 0 0;
+      float: left;
+  }
+  .dropdown-responsive-right-two {
+    width: 100% !important;
+    padding-left: 0;
+    padding-right: 0;
+    float: left;
+  }
+  .dropdown-content .list-width > li:nth-child(5) a {
+    padding-left: 39px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .dropdown-responsive-left {
+    width: 42%;
+  }
+}
+
+@media (max-width: 640px) and (min-width: 481px) {
+  .dropdown-responsive-one {
+    margin-left: 0 !important;
+    width: 100% !important;
+    padding: 0 0%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .dropdown-responsive-left {
+    width: 100%;
+    padding: 0px 37%;
+  }
+  .dropdown-responsive-right {
+    width: 100% !important;
+  }
+  .dropdown-responsive-right-two {
+    width: 100%;
+  }
+  .list-width {
+    width: 30%;
+    padding-left: 0;
+    margin-left: 204px !important;
+  }
+  .dropdown-content .list-inline > li:nth-child(4) a {
+    padding-left: 20px;
+  }
+  .dropdown-rooms-link {
+    width: 21%;
+    margin-left: 38% !important;
+    text-align: center;
+  }
+  .dropdown-responsive-two {
+    width: 100% !important;
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .dropdown-content .list-inline > li a {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dropdown-responsive-one {
+    text-align: center;
+    width: 100% !important;
+  }
+  .dropdown-rooms-link {
+    width: 34%;
+    margin-left: 31% !important;
+  }
+  .dropdown-responsive-left-one {
+      padding: 0 31%;
+  }
+  .list-width {
+    width: 37% !important;
+    padding-left: 0;
+    margin-left: 107px !important;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .dropdown-responsive-left {
+    padding: 0px 15%;
+    width: 100% !important;
+  }
+  .dropdown-responsive-right {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+  .dropdown-responsive-left-one {
+    padding: 0 15%;
+    width: 100% !important;
+  }
+  .dropdown-responsive-right-two {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+  .dropdown-rooms-link {
+    width: 100%;
+    margin-left: 3% !important;
+  }
+  .list-width {
+    width: 100% !important;
+    padding-left: 0;
+    margin-left: 20px !important;
+  }
+  .dropdown-content .list-inline > li:nth-child(4) a {
+    padding-left: 40px !important;
+  }
+}
+
+@media (max-width: 1500px) {
+  .dropdown-responsive-right {
+    width: 30%;
+  }
+  .dropdown-content .list-inline > li:nth-child(4) a {
+    padding-left: 39px;
+  }
+  .dropdown-responsive-right-two {
+    width: 43%;
+  }
+}
+
+@media (max-width: 1131px) {
+  .dropdown-responsive-one {
+      width: 45%;
+      margin-left: 0 !important;
+  }
+  .dropdown-responsive-two {
+    width: 55%;
+  }
+  .dropdown-responsive-left-one {
+    width: 32%;
+  }
+  .dropdown-responsive-right {
+    width: 47%;
+  }
+}
+
+
+
+
