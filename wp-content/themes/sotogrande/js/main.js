@@ -317,4 +317,18 @@ jQuery(document).ready(function() {
 })(jQuery);
 
 
+//responsive menu 
+
+  $(document).ready(function(){
+      $(".navbar-toggle-menu").click(function(){
+
+          $(".nav-mobile").slideDown('fast');
+      });
+
+       $(".nav-mobile-toggle-menu").click(function(){
+          $(".nav-mobile").slideUp('fast');
+      });
+  });
+
+
 

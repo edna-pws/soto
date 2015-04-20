@@ -30,7 +30,7 @@ get_header(); ?>
 				<p class="col-md-5-header-par"><strong>reception</strong>
 					<br /><span class="col-md-5-header-pars">+ 63 32.238.6590 I +63 32.238.6591</span>
 				</p>
-				<p class="col-md-5-header-par"><strong>bannquet sales</strong>
+				<p class="col-md-5-header-par"><strong>banquet sales</strong>
 					<br /><span class="col-md-5-header-pars">+ 63 32.266.4589</span>
 				</p>
 				<p class="col-md-5-header-par"><strong class="email-marg">email add</strong>
