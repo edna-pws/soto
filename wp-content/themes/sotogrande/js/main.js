@@ -1,3 +1,4 @@
+
 var util = {
     Global: {
         init: function () {
@@ -8,7 +9,7 @@ var util = {
             e.headerBannerLayout();
             e.headerResize();
             e.owlSlider();
-            //e.showMap();
+            e.showMap();
             e.carouselPhotos();
             e.subscribeLightBox();
             e.carouselBootstrap();
@@ -107,7 +108,7 @@ var util = {
             });
 
             // when the carousel slides, auto update
-            $('#myCarousel').on('slide', function () {
+            $('#myCarousel').on('slide', function (e) {
               var id = $('.item.active').data('slide-number');
               id = parseInt(id);
               $('[id^=carousel-selector-]').removeClass('selected');
@@ -148,6 +149,7 @@ var util = {
 
             $('.carousel-inner .item:first-child').addClass("active");
         },
+
         showMap: function() {
 
            (function() {
@@ -245,7 +247,7 @@ var util = {
                             '<a target="_blank" href="/" class="">More Info</a><a target="_blank" href="">Get Directions</a></div>',
                         'marker': null
                     },               
-                  ];
+                  ]
                 // Creating a global infoWindow object that will be reused by all markers
             var infoWindow = new google.maps.InfoWindow();
             // Looping through the JSON data
@@ -263,7 +265,7 @@ var util = {
                 // Creating a closure to retain the correct data, notice how I pass the current data in the loop into the closure (marker, data)
                 (function(marker, data) {
                     // Attaching a click event to the current marker
-                    google.maps.event.addListener(marker, "click", function() {
+                    google.maps.event.addListener(marker, "click", function(e) {
                         infoWindow.setContent(data.description);
                         infoWindow.open(map, marker);
                         //infoWindowOptions.maxWidth(300);
@@ -273,7 +275,7 @@ var util = {
                     //add the property list items
                     var $li = $("<li>" + data.title + "</li>");
                     //put a unique class on each li so we can target it based on what page they are on
-                    if (typeof(data.pageid) !== "undefined") {
+                    if (typeof(data.pageid) != "undefined") {
                         var pageids = data.pageid.split(",");
                         for (var i = 0; i < pageids.length; i++) {
                             $li.addClass("mapPageId" + pageids[i]);
@@ -293,13 +295,13 @@ var util = {
     })();
     $(window).load(function() {
         function EvaluateDeviceWidth() {
-               
+                var listPosition = (($(window).width() - $('.container').width()) / 2) + "px";
                 // $('#pointsList').css('right', listPosition);
             }
             //EVALUATE ON WINDOW RESIZE
         $(window).resize(EvaluateDeviceWidth);
         //EVALUATE ON DOCUMENT LOAD
-        
+        EvaluateDeviceWidth();
     });
 
         },
@@ -308,7 +310,7 @@ var util = {
 };
 
 
-(function(){
+(function($){
 
 jQuery(document).ready(function() {
     util.Global.init();
@@ -329,5 +331,6 @@ jQuery(document).ready(function() {
           $(".nav-mobile").slideUp('fast');
       });
   });
+
 
 

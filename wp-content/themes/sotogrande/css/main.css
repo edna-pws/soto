@@ -5744,6 +5744,10 @@ button.close {
   position: relative;
   overflow: hidden;
   width: 100%;
+  background-color: #000;
+  background-image: url(../images/video_preload.gif);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .carousel-inner > .item {
   display: none;
@@ -7404,6 +7408,22 @@ footer .container-fluid {
     margin-top: 10px !important;
   }
 }
+/*DATEPICKER UPDATE*/
+@media (max-width: 1024px) {
+  .datepicker.dropdown-menu {
+    width: 21.4%;
+  }
+}
+@media (max-width: 768px) {
+  .datepicker.dropdown-menu {
+    width: 46%;
+  }
+}
+@media (max-width: 414px) {
+  .datepicker.dropdown-menu {
+    width: 60.5%;
+  }
+}
 .l-banner {
   max-height: 746px;
 }
@@ -8421,9 +8441,6 @@ dd.p-0 {
   .nav-mobile-toggle-menu .icon-bar {
     background-color: #ffffff;
   }
-  .nav-display-none {
-    display: none !important;
-  }
   .nav-check-mobile {
     display: block !important;
     margin-right: 25px;
@@ -8473,6 +8490,25 @@ dd.p-0 {
     width: 85%;
   }
 }
+@media (max-width: 360px) {
+  .navbar-brand {
+    width: 44%;
+  }
+}
+@media (max-width: 354px) {
+  .navbar-brand {
+    width: 37%;
+    margin-top: 1px;
+  }
+  .navbar-header img {
+    width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  .navbar-brand {
+    margin-top: 13px;
+  }
+}
 @media (max-width: 435px) {
   .navbar-right > li > a {
     font-size: 14px;
@@ -8486,6 +8522,12 @@ dd.p-0 {
     font-size: 13px;
     padding: 0;
     margin-right: 7px;
+  }
+}
+/*FORM UPDATE*/
+@media (max-width: 1024px) {
+  .nav-display-none {
+    display: none;
   }
 }
 .post:hover {

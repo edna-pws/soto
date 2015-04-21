@@ -779,10 +779,6 @@
           }
 	}
 
-	.nav-display-none {
-		display: none !important;
-	}
-
 	.nav-check-mobile {
 	  display: block !important;
 	  margin-right: 25px;
@@ -844,7 +840,25 @@
 	}
 
 }
-
+@media (max-width: 360px) {
+	.navbar-brand {
+		width: 44%;
+	}
+}
+@media (max-width: 354px) {
+	.navbar-brand {
+	    width: 37%;
+	    margin-top: 1px;
+	}
+	.navbar-header img {
+		width: 100%;
+	}
+}
+@media (max-width: 320px) {
+	.navbar-brand {
+	    margin-top: 13px;
+	}
+}
 @media (max-width: 435px) {
 	.navbar-right > li > a {
 		font-size: 14px;
@@ -858,5 +872,11 @@
 		font-size: 13px;
 		padding: 0;
 		margin-right: 7px;
+	}
+}
+/*FORM UPDATE*/
+@media (max-width: 1024px) {
+	.nav-display-none {
+		display: none;
 	}
 }

@@ -10,8 +10,8 @@ get_header(); ?>
 	  	<div class="carousel-inner" role="listbox">
 
 	  	<?php
-	   		if (have_rows('home_sliders')): 
-  				while(have_rows('home_sliders')): the_row(); ?>
+	   		if (have_rows('home_slider')): 
+  				while(have_rows('home_slider')): the_row(); ?>
 	    <div class="item">
 	    <?php if (get_sub_field('slide_image')): ?>
 	      <div class="banner-img">

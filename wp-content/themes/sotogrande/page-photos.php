@@ -3,6 +3,7 @@
 Template Name: Photos
  */
 get_header(); ?>
+<?php while(have_posts()):the_post(); ?>
 <section class="section skin-gray skin-gap section-photos">
   <div class="container bottom-gap">
     <h2 class="section-title photos-header">photos</h2>
@@ -61,5 +62,5 @@ get_header(); ?>
   </div><!--/.section-photos-banner -->
 </div>
 </section>
-
+<?php endwhile; ?>
 <?php get_footer(); ?>

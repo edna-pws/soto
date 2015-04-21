@@ -157,53 +157,8 @@
 
                 </div>
           </div>
-
-          <div class="navbar navbar-form-wrapper navbar-mobile">
-                <div class="navbar-collapse collapse nav-bar-width" id="navbar-form">
-                      <!--form-desktop -->
-                      <div class="form-desktop">
-                            <form action="" class="nav-bar-width-wrapper">
-                                <div class="form-group form-date">
-                                      <div class="input-group">
-                                            <input id="dp3"  class="input-date form-control rwd-font" size="16" type="text" value="Check In">
-                                            <div class="input-group-icon">
-                                                  <span class="glyphicon glyphicon-calendar glyphicon-input"></span>
-                                            </div>
-                                      </div>
-                                </div>
-
-                                <div class="form-group custom-select mr2">
-                                      <select name="" id="" class="form-control">
-                                            <option value="">1 Night</option>
-                                            <option value="">1</option>
-                                            <option value="">1</option>
-                                      </select>
-                                </div>
-                                <div class="form-group custom-select mr2">
-                                      <select name="" id="" class="form-control">
-                                            <option value="">1 Adult</option>
-                                            <option value="">1</option>
-                                            <option value="">1</option>
-                                      </select>
-                                </div>
-                                <div class="form-group custom-select mr0">
-                                      <select name="" id="" class="form-control">
-                                            <option value="">0 Children</option>
-                                            <option value="">1</option>
-                                            <option value="">1</option>
-                                      </select>
-                                </div>
-                                <div class="form-group form-group-action form-check">
-                                      <button class="btn btn-green ">Check Availability</button></a>
-                                </div>
-                          </form>
-                      </div>
-                      <!--/form-desktop -->
-                </div>
-          </div>
-
-          <div class="navbar navbar-form-wrapper nav-display-none">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-form">
+          <div class="navbar navbar-form-wrapper">
+                <button type="button" class="navbar-toggle collapsed nav-display-none" data-toggle="collapse" data-target="#navbar-form">
                       <span class="sr-only">Toggle navigation</span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
