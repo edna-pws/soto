@@ -3765,6 +3765,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
 }
+#navbar-form {
+  margin-top: 10px;
+}
 .navbar-collapse {
   overflow-x: visible;
   padding-right: 15px;
@@ -7329,6 +7332,11 @@ footer:after {
 }
 .skin-white-services {
   margin-right: 60px;
+}
+@media (max-width: 1024px) {
+  .l-banner {
+    margin-top: 60px !important;
+  }
 }
 @media (max-width: 786px) {
   .l-banner {

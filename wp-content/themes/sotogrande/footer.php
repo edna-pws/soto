@@ -58,7 +58,7 @@
 				<p class="subs-button-par">We'd love to stay in touch. Subscribe to our newsletter for news, images and offers.</p>
 				<div class="input-group subs-button">
 					<input type="text" class="input-subscribe form-control subs-button-mail" placeholder="Email Address">
-					<div class="input-group-btn">
+					<div class="input-group-btn subs-button-send-button">
 						<button type="submit" class="btn btn-submit subs-button-send">Send</button>
 					</div>
 				</div>

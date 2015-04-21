@@ -3,18 +3,16 @@
 Template Name: Homepage
 */
 get_header(); ?>
-
+<?php while(have_posts()):the_post(); ?>
 <section class="section-carousel l-banner">
 	<div id="banner-slider" class="carousel slide banner-slider" data-ride="carousel">
 
-	  <div class="carousel-inner" role="listbox">
-	  <?php
-	  		$i = 0;
-  			if (have_rows('home_slider')): 
-  				while(have_rows('home_slider')): the_row();
-  				$i++;
-	  ?>
-	    <div class="item <?php echo ($i == 1 ? 'active' : ''); ?>">
+	  	<div class="carousel-inner" role="listbox">
+
+	  	<?php
+	   		if (have_rows('home_sliders')): 
+  				while(have_rows('home_sliders')): the_row(); ?>
+	    <div class="item">
 	    <?php if (get_sub_field('slide_image')): ?>
 	      <div class="banner-img">
 	      	<img src="<?php echo get_sub_field('slide_image'); ?>" alt="<?php echo get_sub_field('slide_title'); ?>" class="img-responsive">
@@ -25,13 +23,13 @@ get_header(); ?>
 	      		<div class="banner-sub">
 	      			<h3 class="banner-subtitle">hotel &amp; resort</h3>
 	      		</div>
-	      	</div>
+	      </div>
 	    
-			<?php elseif (get_sub_field('slide_video')): ?>
+			 <?php elseif (get_sub_field('slide_video')): ?>
 	      <video preload="auto" autoplay class="video-slider" id="video-frame">
 					<source src="<?php echo get_sub_field('slide_video'); ?>" type="video/mp4">
 					<source src="http://sotogrande.philwebservicesdev.com/media/video.ogv" type="video/ogg">
-				</video>
+		  </video>
 			<?php endif; ?>
 		</div><!--/.item -->
 		<?php endwhile; endif; ?>
@@ -42,7 +40,7 @@ get_header(); ?>
         <a class="carousel-control right photos-control-right home-control-right" href="#banner-slider" data-slide="next">›</a>
 	</div>
 </section>
-
+<?php endwhile; ?>
 <section class="section-featured skin-white clearfix">
 <?php
 	$args = array('post_type' => 'properties', 'posts_per_page' => 3);

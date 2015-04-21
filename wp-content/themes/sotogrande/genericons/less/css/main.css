@@ -8030,7 +8030,8 @@ dd.p-0 {
 }
 #subscribe-wrapper .subscribe-box .subscibe-box-inner input {
   border: 1px solid #e0e0e0 !important;
-  padding: 23px 10px 23px;
+  padding: 13px 10px 13px;
+  height: auto;
 }
 #subscribe-wrapper .subscribe-box .subscibe-box-inner input:focus {
   border: 1px solid #4a8666 !important;
