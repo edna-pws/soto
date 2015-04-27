@@ -38,7 +38,7 @@
 
 <div class="gap gap6em"></div>
 
-<section class="section section-single skin-white">
+<section class="section section-single skin-white section-single-properties">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-7 skin-white-services">

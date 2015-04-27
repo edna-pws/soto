@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section class="section skin-gray section-single">
+<section class="section skin-gray section-single section-promos-single">
 	<div class="container">
 		<h2 class="section-title">promos offer</h2>
 

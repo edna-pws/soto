@@ -9830,7 +9830,7 @@ dd.p-0 {
 }
 @media (max-width: 414px) and (min-width: 376px) {
   .section-promos-single {
-    margin-top: 288px !important;
+    margin-top: 288px;
   }
   .post-promos-header {
     margin: 0 16px;
@@ -9858,7 +9858,7 @@ dd.p-0 {
 }
 @media (max-width: 375px) and (min-width: 321px) {
   .section-promos-single {
-    margin-top: 288px !important;
+    margin-top: 288px;
   }
   .post-promos-header {
     margin: 0px 13px;
@@ -9890,7 +9890,7 @@ dd.p-0 {
 }
 @media (min-width: 320px) {
   .section-promos-single {
-    margin-top: 288px !important;
+    margin-top: 288px;
   }
   .post-promos-header {
     margin: 0px 0px;
@@ -10959,6 +10959,9 @@ dd.p-0 {
   }
 }
 /*PROPERTIES-SINGLE*/
+.section-single-properties {
+  margin-top: 86px;
+}
 .section-property-par-one {
   margin-top: 25px !important;
   margin-bottom: 57px !important;
